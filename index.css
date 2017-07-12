@@ -1,0 +1,58 @@
+/*.trans_box{*/
+    /*width: 400px;*/
+    /*height:300px;*/
+    /*margin: 20px;*/
+    /*overflow: hidden;*/
+/*}*/
+/*.trans_image_box {*/
+    /*width: 1600px;*/
+    /*height: 300px;*/
+    /*-webkit-transition: all 1s ease-in-out;*/
+    /*-moz-transition: all 1s ease-in-out;*/
+    /*-o-transition: all 1s ease-in-out;*/
+    /*transition: all 1s ease-in-out;*/
+/*}*/
+/*.trans_image {*/
+    /*width: 400px;*/
+    /*height:300px;*/
+    /*float: left;*/
+/*}*/
+/*.trans_image.one{*/
+    /*background-color: #87bdc1;*/
+/*}*/
+/*.trans_image.two{*/
+    /*background-color: #000000;*/
+/*}*/
+/*.trans_image.three{*/
+    /*background-color: #cccccc;*/
+/*}*/
+/*.trans_image.four{*/
+    /*background-color: red;*/
+/*}*/
+body{
+    width: 100%;
+}
+.slider-box{
+    position: absolute;
+    width: 100%;
+    height: 336px;
+}
+.slider-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: #d8778a;
+
+}
+.slider-img a{
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 982px;
+    height: 100%;
+}
+.img-one{
+    background-color: ;
+}
