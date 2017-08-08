@@ -16,3 +16,23 @@
 //     setInterval('change()',2000);
 //     setInterval('clock()',3000);
 // })();
+    (function change() {
+        var img = document.getElementsByClassName('img');
+        // var btnLeft = document.getElementsByClassName('btn-left')[0];
+        var btnRight = document.getElementsByClassName('btn-right')[0];
+        for(var i=0; i<img.length; i++){
+            btnRight.addEventListener('click', function () {
+                    img[i].classList.add('img-hide');
+                    // img.classList.remove('img-hide');
+            });
+        }
+    })();
+
+
+
+
+//     btnLeft.addEventListener('click',function () {
+//         img[i].classList.add('img-hide');
+//         img[i-1].classList.add('img-index');
+//     })
+// }
